@@ -1,5 +1,6 @@
 # Testes Unitarios de Java
-Neste Repositório demostro um pouco sobre diferentes tipos de teste unitários de Java.
+Neste Repositório demostro um pouco sobre diferentes tipos de teste unitários de Java.<br>
+Vamos criar uma classe Calculadora e vamos realizar os principais tipos de teste nessa classe.
 
 
 ## Ferramentas Comuns de Teste em Java
