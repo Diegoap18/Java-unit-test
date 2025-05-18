@@ -1,10 +1,8 @@
 # Testes Unitarios de Java
 Neste Repositório demostro um pouco sobre diferentes tipos de teste unitários de Java.
 
-<br>
-## Tipos diferentes de Testes Abordados nesse Repositorio:<br>
 
-## 1 - Ferramentas Comuns de Teste em Java
+## Ferramentas Comuns de Teste em Java
 
 | Ferramenta | Descrição |
 |------------|-----------|
@@ -19,7 +17,8 @@ Neste Repositório demostro um pouco sobre diferentes tipos de teste unitários 
 | **JaCoCo** | Ferramenta de análise de cobertura de código Java |
 | **PIT** | Sistema de teste de mutação para Java |
 
-## 2 - Principais Tipos de Testes Unitários em Java
+
+## Principais Tipos de Testes Unitários em Java
 
 | Categoria | Tipo de Teste | Descrição |
 |-----------|---------------|-----------|
@@ -41,4 +40,44 @@ Neste Repositório demostro um pouco sobre diferentes tipos de teste unitários 
 | | Teste Orientado a Dados | Usar arquivos de dados para fornecer entradas de casos de teste e resultados esperados |
 | | Teste de Mutação | Alterar deliberadamente o código para verificar se os testes detectam as mudanças |
 
+
+## Dicas para Bons Testes Unitários
+
+1. **Mantenha os testes pequenos e focados**
+   - Cada teste deve verificar apenas um comportamento ou aspecto específico
+
+2. **Use nomes descritivos**
+   - O nome do teste deve explicar o que está sendo testado e o resultado esperado
+   - Ex: `deveRetornarTrueQuandoEmailForValido()`
+
+3. **Isole os testes**
+   - Os testes não devem depender de outros testes ou da ordem de execução
+   - Use mocks ou stubs para isolar dependências externas
+
+4. **Evite lógica condicional nos testes**
+   - Os testes devem seguir um caminho linear e previsível
+   - Se você precisa testar múltiplos cenários, crie múltiplos testes
+
+5. **Siga a regra F.I.R.S.T.**
+   - **F**ast (Rápido): Os testes devem ser executados rapidamente
+   - **I**solated (Isolado): Os testes não devem depender uns dos outros
+   - **R**epeatable (Repetível): Os testes devem ser consistentes em qualquer ambiente
+   - **S**elf-validating (Auto-validável): Os testes devem determinar automaticamente se passam ou falham
+   - **T**imely (Oportuno): Os testes devem ser escritos junto com o código ou antes
+  
+
+## Como Executar os Testes
+
+```bash
+# Usando Maven
+mvn test
+
+# Usando Gradle
+gradle test
+```
+
+## Author:
+  - Diego Pereira
+  - Email: diegoap18@gmail.com
+    
 
