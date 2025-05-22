@@ -7,7 +7,7 @@ public class Subtraction {
      * @param b segundo operando
      * @return resultado da subtração
      */
-    public double calculate(double a, double b) {
-        return a - b;
+    public int calculate(int a, int b) {
+        return (a - b);
     }
 }

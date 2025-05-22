@@ -8,7 +8,7 @@ public class RestDivision {
      * @return resto da divisão
      * @throws ArithmeticException quando o divisor for zero
      */
-    public double calculate(double a, double b) throws ArithmeticException {
+    public int calculate(int a, int b) throws ArithmeticException {
         if (b == 0) {
             throw new ArithmeticException("Divisão por zero não é permitida");
         }

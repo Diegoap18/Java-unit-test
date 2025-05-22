@@ -8,7 +8,7 @@ public class Multiplication {
      * @param b segundo operando
      * @return resultado da multiplicação
      */
-    public double calculate(double a, double b) {
+    public int calculate(int a, int b) {
         return a * b;
     }
 }
